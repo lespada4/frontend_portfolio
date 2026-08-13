@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import BookingForm from '../src/components/BookingForm';
-import ConfirmationScreen from '../src/components/ConfirmationScreen';
-import { BookingFormData } from '../src/types/booking';
+import BookingForm from '../components/BookingForm';
+import ConfirmationScreen from '../components/ConfirmationScreen';
+import { BookingFormData } from '../types/booking';
 
 export default function Home() {
   const [bookingData, setBookingData] = useState<BookingFormData | null>(null);
