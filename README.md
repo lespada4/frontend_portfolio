@@ -57,4 +57,4 @@
 ## Ссылки
 
 * **Репозиторий:** https://github.com/lespada4/frontend_portfolio
-* **Деплой:** https://bookingpage-one.vercel.app
+* **Деплой:** https://saveurbookingpage.vercel.app
