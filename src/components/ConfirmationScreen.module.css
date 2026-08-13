@@ -1,0 +1,42 @@
+.container {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 32px;
+  background: #FAFAF8;
+  border-radius: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  color: #1A1A1A;
+  margin-bottom: 24px;
+}
+
+.detail {
+  text-align: left;
+  font-size: 15px;
+  color: #1A1A1A;
+  margin-bottom: 8px;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background: #C8963E;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 0;
+    border-radius: 0;
+    min-height: 100vh;
+  }
+}
